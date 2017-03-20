@@ -13,10 +13,5 @@ To do:
 - Add links to useful sites (railroad, busses, food ordering, gas stations
 - Add location information about where we stay, might need to make this private :D 
 - Enjoy holidays!
->>>>>>> origin/master
-
-
-
-[Demo](http://tympanus.net/Development/AnimatedCheckboxes/)
-
-[© Codrops 2013](http://www.codrops.com)
+- Menu
+- make it all smaller
