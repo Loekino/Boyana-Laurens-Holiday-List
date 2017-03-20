@@ -55,21 +55,35 @@ padding: 0 0 0.6em 0.1em;}
 	color: rgba(0,0,0,.2);
 	font-weight: 400;
 	padding: 0 0 0.6em 0.1em;
-	
-    -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 6s; /* Firefox < 16 */
-        -ms-animation: fadein 6s; /* Internet Explorer */
-         -o-animation: fadein 6s; /* Opera < 12.1 */
-            animation: fadein 6s;
+	    
+		-webkit-animation-delay: 6s;
+		-moz-animation-delay: 6s;
+		-ms-animation-delay: 6s;
+		-o-animation-delay: 6s;
+		animation-delay: 6s;
+		
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
 }
 
 section {
 	padding: 7em 0;
-	    -webkit-animation: fadein 6s; /* Safari, Chrome and Opera > 12.1 */
-       -moz-animation: fadein 6s; /* Firefox < 16 */
-        -ms-animation: fadein 6s; /* Internet Explorer */
-         -o-animation: fadein 6s; /* Opera < 12.1 */
-            animation: fadein 6s;
+	
+	
+		-webkit-animation-delay: 8s;
+		-moz-animation-delay: 8s;
+		-ms-animation-delay: 8s;
+		-o-animation-delay: 8s;
+		animation-delay: 8s;
+		
+	    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
 }
 
 section:nth-child(even) {
@@ -79,11 +93,33 @@ section:nth-child(even) {
 section.related {
 	text-align: center;
 	font-size: 1.6em;
+			-webkit-animation-delay: 8s;
+		-moz-animation-delay: 8s;
+		-ms-animation-delay: 8s;
+		-o-animation-delay: 8s;
+		animation-delay: 8s;
+		
+	    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
 }
 
 .related p {
 	margin: 0;
 	padding: 1.1em;
+			-webkit-animation-delay: 8s;
+		-moz-animation-delay: 8s;
+		-ms-animation-delay: 8s;
+		-o-animation-delay: 8s;
+		animation-delay: 8s;
+		
+	    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
 }
 
 /* To Navigation Style */
