@@ -22,6 +22,8 @@ a {
 	text-decoration: none;
 }
 
+
+
 a:hover, a:focus {
 	opacity: 1;
 }
@@ -124,7 +126,18 @@ section.related {
 	}
 
 }
+.triggered{height:auto;width:100%;background-image: url(http://img.youtube.com/vi/MCbC7W-ZCF4/maxresdefault.jpg);
+background-size: 100%;
+background-color: #eee;
+background-blend-mode: color-burn;
+background-color: ;
+opacity: 1.2;padding: 167px;}
 
+.triggered:hover{transition: 0.5s ;padding: 320px;animation:spin 4s linear infinite;    -webkit-animation:spin 4s linear infinite;
+    -moz-animation:spin 4s linear infinite;}
+@-moz-keyframes spin { 100% { -moz-transform: rotate(360deg); } }
+@-webkit-keyframes spin { 100% { -webkit-transform: rotate(360deg); } }
+@keyframes spin { 100% { -webkit-transform: rotate(360deg); transform:rotate(360deg); } }
 
 
 @font-face {
